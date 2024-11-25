@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="/resources/styles/pass.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Generator</h1>
+    <div class="password-box">
+      <input type="text" id="password" readonly placeholder="Your password will appear here">
+      <button id="copy-btn" title="Copy to Clipboard">📋</button>
+    </div>
+    <div class="settings">
+      <label>
+        <input type="checkbox" id="include-lowercase" checked> Lowercase
+      </label>
+      <label>
+        <input type="checkbox" id="include-uppercase" checked> Uppercase
+      </label>
+      <label>
+        <input type="checkbox" id="include-numbers" checked> Numbers
+      </label>
+      <label>
+        <input type="checkbox" id="include-symbols" checked> Symbols
+      </label>
+    </div>
+    <div class="length">
+      <label for="length">Password Length:</label>
+      <input type="number" id="length" value="12" min="6" max="30">
+    </div>
+    <button id="generate-btn">Generate Password</button>
+  </div>
+  <script src="/resources/scripting/passScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .password-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #password {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #1bddff;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #copy-btn {
+    margin-left: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #copy-btn:hover {
+    background: #0056b3;
+  }
+  
+  .settings, .length {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  #generate-btn {
+    background: #1bddff;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #generate-btn:hover {
+    background: #0db6d4;
+  }
